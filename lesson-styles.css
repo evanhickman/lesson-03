@@ -1,0 +1,24 @@
+/*Style Resets*/
+body {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+
+  padding-left: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  overflow: auto;
+}
+
+.grid-item {
+  width: calc(100% / 4 - 4);
+  float: left;
+  margin: 2rem;
+}
